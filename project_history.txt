@@ -71,4 +71,4 @@
   71  wget -qO- http://192.168.1.100
   72  curl -s http://192.168.1.100 
   73  curl -s http://localhost
-  74  history > ~/project_history4.txt
+  74  history > ~/project_history.txt
