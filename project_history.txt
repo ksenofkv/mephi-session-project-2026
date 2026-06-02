@@ -68,7 +68,7 @@
   68  sudo nginx -t
   69  sudo systemctl reload nginx 2>/dev/null || sudo systemctl restart nginx
   70  curl -s http://192.168.1.100 > ~/curl_output.txt      
-  71  wget -qO- http:/192.168.1.100
+  71  wget -qO- http://192.168.1.100
   72  curl -s http://192.168.1.100 
   73  curl -s http://localhost
   74  history > ~/project_history4.txt
